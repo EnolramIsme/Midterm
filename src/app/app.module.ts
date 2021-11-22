@@ -7,13 +7,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProfileComponent,
     NavigationComponent,
-    GalleryComponent
+    GalleryComponent,
+    ContactComponent
   ],import { NgModule } from '@angular/core';
   import { BrowserModule } from '@angular/platform-browser';
   
