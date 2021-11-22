@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
+import { GalleryComponent } from './pages/gallery/gallery.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProfileComponent,
-    NavigationComponent
+    NavigationComponent,
+    GalleryComponent
   ],import { NgModule } from '@angular/core';
   import { BrowserModule } from '@angular/platform-browser';
   
