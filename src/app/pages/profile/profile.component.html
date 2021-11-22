@@ -1,0 +1,51 @@
+<app-navigation title='Profile'></app-navigation>
+    <div class='profile-container'>
+    <div class='content-container'>
+        <mat-card class="example-card">
+        <mat-card-header>
+            <img mat-card-avatar src="https://storage.qoo-app.com/game/7962/g9BjpeOBrTGUzwYfZtlaTRw8T0Ft24jJ.jpg" alt="Avatar" title="Anime">
+            <mat-card-title>Danimar Yanuario</mat-card-title>
+            <mat-card-subtitle>BSIT-3E</mat-card-subtitle>
+        </mat-card-header>
+        <mat-divider></mat-divider>
+        <mat-card-content>
+            <img src="https://scontent.fmnl4-4.fna.fbcdn.net/v/t1.6435-9/196590761_2868551163385352_6539747733248709419_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=174925&_nc_eui2=AeFz-jk7een3sJejWCGAIJBDspuWFD0FZhWym5YUPQVmFbvtbZ96baOX7MV3QGqMq7dSW80DHQO910m8aSb83-As&_nc_ohc=DzWMyCdfdDMAX-W0Vrb&tn=38qAksYRiDXaATwW&_nc_ht=scontent.fmnl4-4.fna&oh=6837cd56670122d7e4c4c30b769a2be9&oe=61C193E6" alt="Marlone" title="Marlone" height="300">
+            <mat-list>
+            <mat-list-item>
+                <mat-icon>school</mat-icon>
+                <p>Name: Eastern Visayas State University</p>
+            </mat-list-item>
+
+            <mat-list-item>
+                <mat-icon>info</mat-icon>
+                <p>Course: BSIT</p>
+            </mat-list-item>
+
+            <mat-list-item>
+                <mat-icon>male</mat-icon>
+                <p>Gender: Male</p>
+            </mat-list-item>
+
+            <mat-list-item>
+                <mat-icon>location_on</mat-icon>
+                <p>Address: Brgy. Iba, Basey, Samar</p>
+            </mat-list-item>
+
+            <mat-list-item>
+                <mat-icon>phone_contact</mat-icon>
+                <p>Contact #: 09614648197</p>
+            </mat-list-item>
+
+            <mat-card-actions>
+                <button mat-button (click)='isClickLike=!isClickLike'
+                        [ngClass]='{"like" : isClickLike }' ><mat-icon>thumb_up</mat-icon></button>
+                <button mat-button (click)='isClickHeart=!isClickHeart'
+                        [ngClass]='{"heart" : isClickHeart }'><mat-icon>favorite</mat-icon></button>
+            </mat-card-actions>
+
+
+            </mat-list>
+        </mat-card-content>
+        </mat-card>
+    </div>
+    </div>
